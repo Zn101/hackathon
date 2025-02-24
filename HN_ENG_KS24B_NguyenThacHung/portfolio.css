@@ -1,0 +1,160 @@
+.container1 {
+    width: 80%;
+    margin: auto;
+    font-family: "Sora", serif;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.Logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+}
+
+.Logo > p {
+    margin-top: 10px;
+}
+
+.text-end {
+    padding-right: 108px;
+}
+
+.HeroSection {
+    width: 100%;
+    height: 716px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 38%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.headerText {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20%;
+}
+
+.textArea1 {
+    width: 600px;
+    height: 336px;
+}
+
+.Frame42 > button {
+    border: none;
+}
+
+.resume {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.Skill {
+    font-family: "Sora", serif;
+    font-size: 24px;
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.Skill > h1 {
+    margin-bottom: 100px;
+}
+
+.row-container {
+    margin-left: 200px;
+}
+
+.row {
+    width: 87%;
+    margin-bottom: 25px;
+}
+
+.row > img{
+    width: 20%;
+}
+
+.experience {
+    background-color: black;
+    color: white;
+    height: 956px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-content: center;
+}
+
+.container2 {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #71717A;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.container2:hover {
+    background-color: #71717A;
+    align-items: center;
+}
+
+.experienceHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.headerExperience {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.headerExperience > img {
+    width: 50;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLogo > p {
+    margin-left: 20px;
+}
+
+
+.footerText {
+    text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        margin: 0px;
+    }
+}
