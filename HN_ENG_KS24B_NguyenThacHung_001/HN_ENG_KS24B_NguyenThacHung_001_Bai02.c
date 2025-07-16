@@ -58,6 +58,7 @@ int main() {
             case 3:
                 break;
             case 4:
+                printf("%s\n", sample);
                 break;
             case 5:
                 printf("Thoat khoi chuong trinh thanh cong");
